@@ -102,11 +102,11 @@
 
         layer_3 {
             bindings = <
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4  &kp NUMBER_5                          &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL   &kp S         &kp J         &kp T               &kp C         &kp V                                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHIFT  &kp L         &kp R         &kp E               &kp B         &kp CAPS                              &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB     &kp Z         &kp LC(Z)     &kp LC(LS(LA(F1)))  &kp CAPSLOCK  &kp LCTRL     &kp ENTER       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &kp ESC             &kp Q         &kp LEFT_ALT  &kp LEFT_ALT    &trans  &to 0   &trans  &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4  &kp NUMBER_5                           &trans  &trans  &trans  &trans  &trans  &kp N0
+&kp LCTRL   &kp S         &kp J         &kp T               &kp C         &kp V                                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHIFT  &kp L         &kp R         &kp E               &kp B         &kp CAPS                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB     &kp Z         &kp LC(Z)     &kp LC(LS(LA(F1)))  &kp CAPSLOCK  &kp LCTRL     &kp ENTER       &trans   &trans  &trans  &trans  &trans  &trans  &kp DEL
+                                        &kp ESC             &kp Q         &kp LEFT_ALT  &kp LEFT_ALT    &kp ESC  &to 0   &trans  &trans
             >;
         };
     };
