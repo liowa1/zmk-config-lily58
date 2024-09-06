@@ -76,7 +76,7 @@
 &kp LCTRL  &none   &none   &kp INSERT       &kp PRINTSCREEN  &kp PAGE_UP                      &kp HOME  &none           &kp UP_ARROW      &none            &kp BACKSLASH  &kp EQUAL
 &kp LSHFT  &none   &none   &kp DELETE       &kp END          &kp PAGE_DOWN                    &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &none          &kp RS(EQUAL)
 &kt TAB    &none   &none   &kp LC(LA(DEL))  &trans           &kp LEFT_ALT   &trans    &trans  &trans    &none           &kp K_PLAY_PAUSE  &none            &kp LS(N7)     &none
-                           &trans           &trans           &trans         &trans    &trans  &trans    &trans          &trans
+                           &bt BT_CLR       &bt BT_CLR_ALL   &bt BT_NXT     &trans    &trans  &trans    &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
